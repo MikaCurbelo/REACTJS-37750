@@ -18,7 +18,7 @@ export const getItems = () =>{
 }
 
 export const getItem = (id) => {
-    console.log(id)
+   
     const db = getFirestore();
     const docItem = doc(db, "items", id);
     return getDoc(docItem).then(snapshot => snapshot.exists() && {id: snapshot.id, ...snapshot.data()})

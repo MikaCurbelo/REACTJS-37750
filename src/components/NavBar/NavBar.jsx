@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
-import './NavBar.css'
-import CartWidget from './CartWidget'
+import React from 'react';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { GiMusicalNotes } from "react-icons/gi";
-import { Link } from "react-router-dom"
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import { Link } from "react-router-dom";
+import CartWidget from './CartWidget';
+import './NavBar.css';
 
 
 

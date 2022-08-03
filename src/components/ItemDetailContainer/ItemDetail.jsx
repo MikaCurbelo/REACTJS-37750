@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
-import React, { useContext, useState } from 'react'
-import {ItemCount} from '../ItemCount/ItemCount';
-import swal from 'sweetalert'
-import './ItemDetailContainer.scss'
-import '../ItemCount/ItemCount.scss'
+import React, { useContext, useState } from 'react';
+import { Link } from 'react-router-dom';
+import swal from 'sweetalert';
 import { myContext } from '../Context/CartContext';
-import { Link } from 'react-router-dom'
+import { ItemCount } from '../ItemCount/ItemCount';
+import '../ItemCount/ItemCount.scss';
+import './ItemDetailContainer.scss';
 
 
 

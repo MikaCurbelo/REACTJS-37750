@@ -1,12 +1,7 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-unused-vars */
-/* eslint-disable react-hooks/exhaustive-deps */
-import React from 'react'
-import { useEffect } from 'react'
-import { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import { getItems } from '../helper/getArray'
 import './Greeting.css'
-import {getItems} from '../helper/getArray'
-import {ItemList} from './ItemList'
+import { ItemList } from './ItemList'
 import "./ItemListContainer.scss"
 
 
