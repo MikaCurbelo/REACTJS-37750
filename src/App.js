@@ -9,6 +9,7 @@ import { ItemDetailContainer } from './components/ItemDetailContainer/ItemDetail
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import './components/NavBar/NavBar';
 import { NavBar } from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -28,6 +29,7 @@ function App() {
           <Route path='/Item/:itemId' element={<ItemDetailContainer/>}/>
           <Route path='/cart' element={<Cart/>}/>
         </Routes>
+        <Footer/>
      </BrowserRouter>
     }
     </CartContext>
