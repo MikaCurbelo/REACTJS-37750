@@ -1,10 +1,10 @@
-# Desarrollador Mikael Curbelo
+commit -m# Desarrollador Mikael Curbelo
 
 # Proyecto de enseñanza musical, Clases de Música
 Este proyecto está pensado para poder acceder a la compra de un servicio brindado en forma de clases de música dem diferentes instrumentos. 
 
 # Gif de navegación
-![image](https://github.com/MikaCurbelo/37750-React-Js/blob/master/src/media/Clases%20de%20musica%20-%20Reactjs.gif)
+![image](https://github.com/MikaCurbelo/REACTJS-37750/blob/main/src/media/Cursos%20de%20musica.gif)
 
 # Dependencias 
 
