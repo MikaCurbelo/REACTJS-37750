@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.logo{
+    
+    font-family: 'Permanent Marker', cursive;
+    font-size: larger;
+    display: flex;
+    color: #034159;
+    text-decoration: none;
+
+}
+.links{
+    text-decoration: none;
+    color: #034159;
+}
+.backNav{
+    background-color: #03A678;
+}
+.dropDown{
+    font-size: large;
+}
+.icono{
+    font-size: 1.7em;
+    color: #034159;
+}

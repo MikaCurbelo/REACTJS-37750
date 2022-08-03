@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); 
+.bg{
+    background-color: aquamarine;
+}
+.cart{
+    display: flex;
+    margin: auto;    
+}
+.btnCart{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
+}
+.inputLabel{
+    width: 90%;
+    margin: auto;
+}
+.btnCompra{
+    width: 100px;
+    border-radius: 5px;
+    justify-content: center;
+    margin:5px auto;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Permanent Marker', cursive;
+}

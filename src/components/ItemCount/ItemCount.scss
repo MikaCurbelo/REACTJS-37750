@@ -1,0 +1,14 @@
+#itemCount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .count{
+        display: flex;
+        button{
+            margin: 10px;
+            padding: 10px;
+        }
+    }
+    
+}

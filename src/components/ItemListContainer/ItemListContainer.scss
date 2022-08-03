@@ -1,0 +1,13 @@
+#itemListCont{
+     width: 100%;
+     height: 70vh;
+     background-color: aquamarine;
+     display: flex;
+     justify-content: center;
+     #item{
+          border: 2px solid black;
+          margin: 20px;
+          height: 400px;
+          font-size: 2vh;
+     }
+}
